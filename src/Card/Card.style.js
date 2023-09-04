@@ -3,48 +3,30 @@ import { Dimensions, StyleSheet } from "react-native";
 export default StyleSheet.create({
   container: {
     flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: "#FFF",
-    width: Dimensions.get("window").width,
-    padding: 30,
-    justifyContent: "space-around",
-    shadowOffset: { height: 2, width: 0 },
-    shadowColor: "#000",
-    elevation: 5,
-    marginBottom: 5,
+    padding: 10,
   },
-  avatar: {
-    borderRadius: 100 / 2,
+  image: {
+    borderRadius: 50,
     width: 100,
     height: 100,
   },
-  music_description_container: {
-    alignItems: "flex-start",
-    marginRight: 60,
-    marginLeft: 20,
+  inner_container: {
+    padding: 10,
+    flex: 1,
+    justifyContent: "center",
   },
-  music_name: {
+  title: {
     fontWeight: "bold",
     fontSize: 25,
   },
-  desc_year_container: {
-    alignItems: "center",
+  info_container: {
     flexDirection: "row",
   },
-  music_description: {
-    fontSize: 15,
-    marginRight: 10,
-  },
-  music_yearInfo: {
+  music_artist: {},
+  music_year: {
     fontSize: 12,
+    marginLeft: 10,
   },
-  music_stockInfo_container: {
-    marginTop: 40,
-    borderWidth: 1,
-    borderColor: "red",
-    padding: 5,
-  },
-  music_stockInfo: {
-    color: "red",
-  },
+  music_stock_container: {},
+  music_stock: {},
 });
