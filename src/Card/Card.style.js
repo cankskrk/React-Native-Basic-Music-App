@@ -21,12 +21,24 @@ export default StyleSheet.create({
   },
   info_container: {
     flexDirection: "row",
+    flex: 1,
+    alignItems: "center",
   },
   music_artist: {},
   music_year: {
     fontSize: 12,
     marginLeft: 10,
+    borderRadius: 5,
+    padding: 5,
   },
-  music_stock_container: {},
-  music_stock: {},
+  soldout_container: {
+    borderWidth: 1,
+    borderColor: "red",
+  },
+  soldout_title: {
+    color: "red",
+  },
+  content_container: {
+    flexDirection: "row",
+  },
 });
