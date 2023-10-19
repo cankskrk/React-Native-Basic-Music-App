@@ -1,7 +1,7 @@
 import { View, Text, Image } from "react-native";
 
 // Style
-import styles from "./Card.style";
+import styles from "./Card.styles";
 
 const Card = ({ data }) => {
   return (

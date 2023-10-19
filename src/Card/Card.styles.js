@@ -34,6 +34,8 @@ export default StyleSheet.create({
   soldout_container: {
     borderWidth: 1,
     borderColor: "red",
+    marginTop: 10,
+    padding: 3,
   },
   soldout_title: {
     color: "red",
